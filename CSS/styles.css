@@ -1,0 +1,125 @@
+/*Media queries*/ /*Mobile*/
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: rgb(235, 148, 201);
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 501px) and (max-width: 960) {
+  body {
+    background-color: rgb(243, 179, 222);
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: rgb(243, 233, 235);
+  }
+}
+header nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(240, 221, 221);
+  align-items: center;
+}
+header nav .logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 3px;
+}
+header nav p {
+  color: rgb(231, 164, 178);
+  font-size: 60px;
+  margin-left: 45px;
+}
+header nav ul {
+  display: flex;
+  margin-left: 450px;
+}
+header nav ul li {
+  padding: 12px;
+  display: flex;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(157, 150, 158);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(110, 101, 101);
+  font-family: monospace;
+  font-size: 20px;
+}
+a li {
+  list-style: none;
+}
+
+h1 {
+  color: rgb(112, 105, 105);
+  font-size: 35px;
+  text-align: center;
+  margin: 2% auto;
+}
+
+main {
+  /*video*/
+}
+main .frase2 {
+  font-size: 25px;
+  font-style: italic;
+}
+main iframe {
+  margin: 10px, 300px, 200px, 200px;
+}
+
+.grid-container {
+  display: grid;
+  /*"auto" como una misma unidad de medida para todas*/
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat(3, 100px);
+  /*Espacios entre filas y columnas*/
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.grid-container .grid-item {
+  font-size: 21px;
+  padding: 5px;
+}
+
+.id carousel {
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(240, 221, 221);
+  align-items: center;
+}
+header nav .logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 3px;
+}
+header nav p {
+  color: rgb(231, 164, 178);
+  font-size: 60px;
+  margin-left: 45px;
+}
+header nav ul {
+  display: flex;
+  margin-left: 450px;
+}
+header nav ul li {
+  padding: 12px;
+  display: flex;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(157, 150, 158);
+}
+
+/*# sourceMappingURL=styles.css.map */

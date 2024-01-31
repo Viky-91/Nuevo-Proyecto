@@ -1,0 +1,48 @@
+a {
+  text-decoration: none;
+  color: rgb(110, 101, 101);
+  font-family: monospace;
+  font-size: 20px;
+  li {
+    list-style: none;
+  }
+}
+
+h1 {
+  color: rgb(112, 105, 105);
+  font-size: 35px;
+  text-align: center;
+  margin: 2% auto;
+}
+
+main {
+  .frase2 {
+    font-size: 25px;
+    font-style: italic;
+  }
+
+  /*video*/
+  iframe {
+    margin: 10px, 300px, 200px, 200px;
+  }
+}
+//ESTILOS DEL HTML "BUSCAR"
+
+.grid-container {
+  display: grid;
+  /*"auto" como una misma unidad de medida para todas*/
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat(3, 100px);
+
+  /*Espacios entre filas y columnas*/
+  row-gap: 10px;
+  column-gap: 10px;
+  .grid-item {
+    font-size: 21px;
+    padding: 5px;
+  }
+}
+//ESTILOS DEL HTML "OFERTAS
+.id carousel {
+  text-align: center;
+}
