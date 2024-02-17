@@ -1,0 +1,14 @@
+.seccion-ofertas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+}
+
+.seccion-ofertas .texto-ofertas {
+  width: 40%;
+}
+
+.texto-descuentos {
+  font-size: 25px;
+}

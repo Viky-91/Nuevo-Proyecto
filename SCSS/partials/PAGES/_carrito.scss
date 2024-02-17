@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carrito {
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-carrito {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  justify-content: space-between;
+}
+
+.items {
+  width: 70%;
+  padding: 40px;
+}
+
+.items img {
+  width: auto;
+  border-radius: 5px;
+  height: 200px;
+}
+
+.info {
+  padding: 15px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.precio {
+  font-weight: 650;
+}
+
+.carrito button {
+  padding: 1rem;
+  width: 300px;
+  border-radius: 6px;
+  background-color: rgb(208, 214, 214);
+  border: none;
+  outline: none;
+}
+
+.resumen-de-compra {
+  padding: 40px 0px;
+  width: 30%;
+}
+
+.resumen-de-compra h2 {
+  text-align: center;
+}
+
+.compra {
+  margin-top: 30px;
+  display: flex;
+}
+
+.titulos-precios {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.precios {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}

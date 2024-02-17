@@ -20,16 +20,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 
     <!--Conexión con CSS- escoger "link:css"-->
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
     <title>Ofertas</title>
   </head>
 
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <img class="logo" src="IMAGENES/logo.jpg" alt="Imagen Logo" />
-
-        <a class="nav-link brand" href="Niia.html">NIIA</a>
+        <a href="../index.html">
+          <img class="logo" src="../IMAGENES/logo.jpg" alt="Imagen Logo"
+        /></a>
 
         <button
           class="navbar-toggler"
@@ -46,8 +46,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Buscar.html"
-                >BUSCAR</a
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >INICIO</a
               >
             </li>
 
@@ -56,7 +59,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="Favoritos.html">FAVORITOS</a>
+              <a class="nav-link" href="Novedades.html">NOVEDADES</a>
             </li>
 
             <li class="nav-item">
@@ -64,7 +67,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="Registrarse.html">REGISTRARSE</a>
+              <a class="nav-link" href="Contactanos.html">CONTACTANOS</a>
             </li>
           </ul>
         </div>
@@ -72,83 +75,94 @@
     </header>
 
     <main>
-      <div id="carousel" class="carousel slide">
-        <div class="carousel-indicators">
+      <h1>¡¡SUMMER SALE 2024!!</h1>
+      <section class="seccion-ofertas">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../IMAGENES/imgCarusell1.jpg" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>COLLARES</h5>
+                <p class="texto-descuentos">¡50 % de descuento!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../IMAGENES/imgCarusell2.png"
+                class="d-block"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>ANILLOS</h5>
+                <p class="texto-descuentos">¡25 % de descuento!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../IMAGENES/imgCarusell3.jpeg"
+                class="d-block"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>GAFAS</h5>
+                <p class="texto-descuentos">¡30 % de descuento!</p>
+              </div>
+            </div>
+          </div>
           <button
+            class="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
           <button
+            class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="IMAGENES/img1.jpg"
-              class="d-block banner-imagen"
-              alt="imagen1"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Collares (-50 %)</h5>
-              <p>SUMMER SALE</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="IMAGENES/img2.png"
-              class="d-block banner-imagen"
-              alt="imagen2"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Anillos (-30 %)</h5>
-              <p>SUMMER SALE</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="IMAGENES/img3 (3).jpeg"
-              class="d-block banner-imagen"
-              alt="imagen3"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Lentes de sol (-25 %)</h5>
-              <p>SUMMER SALE</p>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+
+        <p class="texto-ofertas">
+          En nuestra sección de ofertas, encontrarás una amplia variedad de
+          joyas cuidadosamente seleccionadas a precios irresistibles. Desde
+          elegantes collares hasta deslumbrantes anillos y pulseras exquisitas,
+          cada pieza está diseñada para destacar tu estilo y personalidad. Ya
+          sea que busques el regalo perfecto para esa ocasión especial o
+          simplemente quieras darte un capricho, nuestras ofertas te brindan la
+          oportunidad de adquirir piezas de alta calidad a precios
+          excepcionales. No pierdas la oportunidad de añadir un toque de lujo a
+          tu vida con nuestras ofertas en joyería.
+        </p>
+      </section>
     </main>
 
     <!-- Inicio del Footer -->
